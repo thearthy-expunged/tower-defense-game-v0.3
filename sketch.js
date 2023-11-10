@@ -93,7 +93,7 @@ function draw() {
   if(frameCount % 1000 == 0){
     produce()
   }
-  if(frameCount % 100 == 0){
+  if(frameCount % 300 == 0){
     enemy1h.Sprite = createSprite(width+50,random(height/2+100,height-100))
     enemy1h.Sprite.addAnimation("enemyAni",enemyAni)
     enemy1h.Sprite.velocityX = -2
